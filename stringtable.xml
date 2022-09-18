@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="CUP">
+  <Package name="Weapons">
+    <Container name="Galil">
+      <Key ID="STR_CUP_dn_Galil_black">
+        <Original>Galil ARM (7.62/Black)</Original>
+        <Japanese>ガリル ARM (7.62/ブラック)</Japanese>
+      </Key>
+      <Key ID="STR_CUP_dn_Galil_556_black">
+        <Original>Galil ARM (5.56/Black)</Original>
+        <Japanese>ガリル ARM (5.56/ブラック)</Japanese>
+      </Key>
+      <Key ID="STR_CUP_dn_Galil_SAR_black">
+        <Original>Galil SAR (5.56/Black)</Original>
+        <Japanese>ガリル SAR (5.56/ブラック)</Japanese>
+      </Key>
+      <Key ID="STR_CUP_lib_Galil">
+        <Original>IMI Galil</Original>
+      </Key>
+      <Key ID="STR_CUP_dss_Galil">
+        <Original>Assault rifle&lt;br/&gt;Caliber: 5.56x45mm NATO</Original>
+        <Japanese>アサルト ライフル&lt;br/&gt;口径: 5.56x45 mm NATO</Japanese>
+      </Key>
+    </Container>
+  </Package>
+</Project>
