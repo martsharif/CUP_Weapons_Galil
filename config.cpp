@@ -280,7 +280,7 @@ class CfgWeapons
 				effectName = "RHS_BarrelRefract";
 			};
 		};
-		opticsZoomMin = 0.375;
+		opticsZoomMin = 0.25;
 		opticsZoomMax = 1.1;
 		opticsZoomInit = 0.75;
 		distanceZoomMin = 300;
@@ -543,7 +543,8 @@ class CfgWeapons
 		};
 		aiDispersionCoefY = 3;
 		aiDispersionCoefX = 2;
-		drySound[] = {"A3\sounds_f\weapons\Other\dry_1",0.01,1};
+		drySound[] = {"A3\sounds_f\weapons\Other\dry_1",0.562341,1,10};
+		changeFiremodeSound[] = {"rhsafrf\addons\rhs_sounds\ak_shared\firemode",0.6,1,5};
 		reloadMagazineSound[] = {"A3\sounds_f\weapons\reloads\new_MX",0.39810717,1,30};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -586,6 +587,14 @@ class CfgWeapons
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			mass = 98.12;
+		};
+		class Single: Single
+		{
+			dispersion = 0.00058;
+		};
+		class FullAuto: FullAuto
+		{
+			dispersion = 0.00058;
 		};
 	};
 	class CUP_arifle_Galil_556_black: CUP_arifle_GALIL_BASE
@@ -630,6 +639,14 @@ class CfgWeapons
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			mass = 82.68;
+		};
+		class Single: Single
+		{
+			dispersion = 0.00093088;
+		};
+		class FullAuto: FullAuto
+		{
+			dispersion = 0.00093088;
 		};
 	};
 	class CUP_arifle_Galil_black_no_ris: CUP_arifle_Galil_black
